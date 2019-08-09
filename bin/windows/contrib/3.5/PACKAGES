@@ -1,0 +1,371 @@
+Package: askpass
+Version: 1.1
+Imports: sys (>= 2.1)
+Suggests: testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: assertthat
+Version: 0.2.1
+Imports: tools
+Suggests: testthat, covr
+License: GPL-3
+
+Package: base64enc
+Version: 0.1-3
+Depends: R (>= 2.9.0)
+Enhances: png
+License: GPL-2 | GPL-3
+Archs: i386, x64
+
+Package: BH
+Version: 1.69.0-1
+License: BSL-1.0
+
+Package: bit
+Version: 1.1-14
+Depends: R (>= 2.9.2)
+License: GPL-2
+Archs: i386, x64
+
+Package: bit64
+Version: 0.9-7
+Depends: R (>= 3.0.1), bit (>= 1.1-12), utils, methods, stats
+License: GPL-2
+Archs: i386, x64
+
+Package: blob
+Version: 1.1.1
+Imports: methods, prettyunits
+Suggests: covr, pillar (>= 1.2.1), testthat
+License: GPL-3
+
+Package: curl
+Version: 3.3
+Depends: R (>= 3.0.0)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown, magrittr, httpuv (>= 1.4.4),
+           webutils
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: data.table
+Version: 1.12.2
+Depends: R (>= 3.1.0)
+Imports: methods
+Suggests: bit64, curl, R.utils, knitr, xts, nanotime, zoo
+License: MPL-2.0 | file LICENSE
+Archs: i386, x64
+
+Package: DBI
+Version: 1.0.0
+Depends: R (>= 3.0.0), methods
+Suggests: blob, covr, hms, knitr, magrittr, rprojroot, rmarkdown, RSQLite (>= 1.1-2), testthat, xml2
+License: LGPL (>= 2)
+
+Package: digest
+Version: 0.6.19
+Depends: R (>= 3.1.0)
+Suggests: knitr, rmarkdown
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: evaluate
+Version: 0.14
+Depends: R (>= 3.0.2)
+Imports: methods
+Suggests: testthat, lattice, ggplot2
+License: MIT + file LICENSE
+
+Package: fst
+Version: 0.9.0
+Depends: R (>= 3.0.0)
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, bit64, data.table, lintr, nanotime, crayon
+License: AGPL-3 | file LICENSE
+Archs: i386, x64
+
+Package: getopt
+Version: 1.20.3
+Imports: stats
+Suggests: covr, testthat
+License: GPL (>= 2)
+
+Package: glue
+Version: 1.3.1
+Depends: R (>= 3.1)
+Imports: methods
+Suggests: testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI, RSQLite, R.utils, forcats,
+           microbenchmark, rprintf, stringr, ggplot2, dplyr, withr
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: GNapi
+Version: 0.2-2
+Depends: R (>= 3.1.0)
+Imports: utils, httr
+Suggests: testthat, devtools, roxygen2, knitr, rmarkdown
+License: MIT + file LICENSE
+
+Package: highr
+Version: 0.8
+Depends: R (>= 3.2.3)
+Suggests: knitr, testit
+License: GPL
+
+Package: htmltools
+Version: 0.3.6
+Depends: R (>= 2.14.1)
+Imports: utils, digest, Rcpp
+LinkingTo: Rcpp
+Suggests: markdown, testthat
+Enhances: knitr
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: htmlwidgets
+Version: 1.3
+Imports: grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml
+Suggests: knitr (>= 1.8)
+Enhances: shiny (>= 1.1)
+License: MIT + file LICENSE
+
+Package: httr
+Version: 1.4.0
+Depends: R (>= 3.1)
+Imports: curl (>= 0.9.1), jsonlite, mime, openssl (>= 0.8), R6
+Suggests: covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat (>= 0.8.0), xml2
+License: MIT + file LICENSE
+
+Package: jsonlite
+Version: 1.6
+Depends: methods
+Suggests: httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: knitr
+Version: 1.23
+Depends: R (>= 3.2.3)
+Imports: evaluate (>= 0.10), highr, markdown, stringr (>= 0.6), yaml (>= 2.1.19), methods, xfun, tools
+Suggests: formatR, testit, digest, rgl (>= 0.95.1201), codetools, rmarkdown, htmlwidgets (>= 0.7),
+           webshot, tikzDevice (>= 0.10), tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick,
+           png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1), showtext, tibble, styler
+License: GPL
+
+Package: lattice
+Version: 0.20-38
+Priority: recommended
+Depends: R (>= 3.0.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra
+Enhances: chron
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: magrittr
+Version: 1.5
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+
+Package: markdown
+Version: 0.9
+Depends: R (>= 2.11.1)
+Imports: utils, mime (>= 0.3)
+Suggests: knitr, RCurl
+License: GPL-2
+Archs: i386, x64
+
+Package: Matrix
+Version: 1.2-17
+Priority: recommended
+Depends: R (>= 3.2.0)
+Imports: methods, graphics, grid, stats, utils, lattice
+Suggests: expm, MASS
+Enhances: MatrixModels, graph, SparseM, sfsmisc
+License: GPL (>= 2) | file LICENCE
+Archs: i386, x64
+
+Package: memoise
+Version: 1.1.0
+Imports: digest (>= 0.6.3)
+Suggests: testthat, aws.s3, httr, covr
+License: MIT + file LICENSE
+
+Package: mime
+Version: 0.6
+Imports: tools
+License: GPL
+Archs: i386, x64
+
+Package: openssl
+Version: 1.3
+Imports: askpass
+Suggests: testthat, digest, knitr, rmarkdown, jsonlite, jose
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: optparse
+Version: 1.6.2
+Depends: R (>= 2.9.0)
+Imports: methods, getopt (>= 1.20.2)
+Suggests: covr, knitr (>= 1.15.19), stringr, testthat
+License: GPL (>= 2)
+
+Package: pkgconfig
+Version: 2.0.2
+Imports: utils
+Suggests: covr, testthat, disposables (>= 1.0.3)
+License: MIT + file LICENSE
+
+Package: plogr
+Version: 0.2.0
+Suggests: Rcpp
+License: MIT + file LICENSE
+
+Package: prettyunits
+Version: 1.0.2
+Imports: magrittr, assertthat, methods
+Suggests: testthat
+License: MIT + file LICENSE
+
+Package: qtl
+Version: 1.44-9
+Depends: R (>= 2.14.0)
+Imports: parallel, graphics, stats, utils, grDevices
+Suggests: testthat
+License: GPL-3
+Archs: i386, x64
+
+Package: qtl2
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.12), yaml (>= 2.1.13), jsonlite (>= 0.9.17), data.table (>= 1.10.4-3),
+           parallel, stats, utils, graphics, grDevices, RSQLite
+LinkingTo: Rcpp, RcppEigen
+Suggests: testthat, devtools, roxygen2, vdiffr, qtl
+License: GPL-3
+Archs: i386, x64
+
+Package: qtl2bioc
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: GenomicRanges, AnnotationHub
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+
+Package: qtl2browse
+Version: 0.1-1
+Depends: R (>= 3.1.0)
+Imports: utils, jsonlite (>= 0.9.17), qtl2 (>= 0.18)
+License: MIT + file LICENSE
+
+Package: qtl2cl
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: qtl2 (>= 0.8), qtl2convert (>= 0.8), optparse, jsonlite, yaml
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+
+Package: qtl2convert
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.12), qtl (>= 1.40-8), qtl2 (>= 0.18), utils, stats
+LinkingTo: Rcpp
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+Archs: i386, x64
+
+Package: qtl2fst
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: fst
+Suggests: testthat, qtl2 (>= 0.15-1), knitr, rmarkdown
+License: GPL-3
+
+Package: qtlcharts
+Version: 0.11-6
+Depends: R (>= 2.15)
+Imports: qtl (>= 1.30-4), htmlwidgets, graphics, stats, utils
+Suggests: htmltools, jsonlite, knitr, devtools, roxygen2, rmarkdown, testthat
+License: GPL-3 | file LICENSE
+
+Package: R6
+Version: 2.4.0
+Depends: R (>= 3.0)
+Suggests: knitr, microbenchmark, pryr, testthat, ggplot2, scales
+License: MIT + file LICENSE
+
+Package: Rcpp
+Version: 1.0.1
+Depends: R (>= 3.0.0)
+Imports: methods, utils
+Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: RcppEigen
+Version: 0.3.3.5.0
+Depends: R (>= 2.15.1)
+Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils
+LinkingTo: Rcpp
+Suggests: inline, RUnit, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+Archs: i386, x64
+
+Package: rmarkdown
+Version: 1.13
+Depends: R (>= 3.0)
+Imports: tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>= 0.3.5), evaluate (>= 0.13),
+           base64enc, jsonlite, mime, tinytex (>= 0.11), xfun, methods, stringr (>= 1.2.0)
+Suggests: shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble, fs, callr (>= 2.0.0)
+License: GPL-3
+
+Package: RSQLite
+Version: 2.1.1
+Depends: R (>= 3.1.0)
+Imports: bit64, blob (>= 1.1.1), DBI (>= 1.0.0), memoise, methods, pkgconfig, Rcpp (>= 0.12.7)
+LinkingTo: BH, plogr (>= 0.2.0), Rcpp
+Suggests: DBItest, knitr, rmarkdown, testthat
+License: LGPL (>= 2)
+Archs: i386, x64
+
+Package: stringi
+Version: 1.4.3
+Depends: R (>= 2.14)
+Imports: tools, utils, stats
+License: file LICENSE
+License_is_FOSS: yes
+Archs: i386, x64
+
+Package: stringr
+Version: 1.4.0
+Depends: R (>= 3.1)
+Imports: glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)
+Suggests: covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat
+License: GPL-2 | file LICENSE
+
+Package: sys
+Version: 3.2
+Suggests: unix (>= 1.4), spelling, testthat
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: tinytex
+Version: 0.13
+Imports: xfun (>= 0.5)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+
+Package: xfun
+Version: 0.7
+Imports: tools
+Suggests: testit, parallel, rstudioapi, tinytex, mime, markdown, knitr, htmltools, base64enc, remotes,
+           rmarkdown
+License: MIT + file LICENSE
+
+Package: yaml
+Version: 2.2.0
+Suggests: RUnit
+License: BSD_3_clause + file LICENSE
+Archs: i386, x64
