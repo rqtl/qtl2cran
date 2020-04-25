@@ -69,6 +69,13 @@ Suggests: knitr, rmarkdown
 License: GPL (>= 2)
 Archs: i386, x64
 
+Package: ellipsis
+Version: 0.1.0
+Depends: R (>= 3.1)
+Suggests: covr, testthat
+License: GPL-3
+Archs: i386, x64
+
 Package: evaluate
 Version: 0.13
 Depends: R (>= 3.0.2)
@@ -313,6 +320,13 @@ Suggests: inline, RUnit, pkgKitten, microbenchmark
 License: GPL (>= 2) | file LICENSE
 Archs: i386, x64
 
+Package: rlang
+Version: 0.3.4
+Depends: R (>= 3.1.0)
+Suggests: covr, crayon, magrittr, methods, pillar, rmarkdown, testthat (>= 2.0.0)
+License: GPL-3
+Archs: i386, x64
+
 Package: rmarkdown
 Version: 1.12
 Depends: R (>= 3.0)
@@ -356,6 +370,14 @@ Version: 0.12
 Imports: xfun (>= 0.5)
 Suggests: testit, rstudioapi
 License: MIT + file LICENSE
+
+Package: vctrs
+Version: 0.1.0
+Depends: R (>= 3.1)
+Imports: backports, digest, glue, rlang, zeallot
+Suggests: covr, generics, knitr, pillar, pkgdown, rmarkdown, testthat, tibble
+License: GPL-3
+Archs: i386, x64
 
 Package: xfun
 Version: 0.6

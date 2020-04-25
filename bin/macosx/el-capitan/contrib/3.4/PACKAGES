@@ -80,6 +80,14 @@ License: GPL (>= 2)
 Archs: digest.so.dSYM
 MD5sum: 709d0b5192494237885932c4199ca2e3
 
+Package: ellipsis
+Version: 0.1.0
+Depends: R (>= 3.1)
+Suggests: covr, testthat
+License: GPL-3
+Archs: ellipsis.so.dSYM
+MD5sum: 26e274cee89302b360ab03d85143a6be
+
 Package: evaluate
 Version: 0.13
 Depends: R (>= 3.0.2)
@@ -355,6 +363,14 @@ License: GPL (>= 2) | file LICENSE
 Archs: RcppEigen.so.dSYM
 MD5sum: a7d9afedc365146b4b1b3aa8ce2160ec
 
+Package: rlang
+Version: 0.3.1
+Depends: R (>= 3.1.0)
+Suggests: crayon, magrittr, methods, pillar, testthat (>= 2.0.0), covr
+License: GPL-3
+Archs: rlang.so.dSYM
+MD5sum: cdb95cd7e6a2173949170b8d1ac5512a
+
 Package: rmarkdown
 Version: 1.12
 Depends: R (>= 3.0)
@@ -403,6 +419,15 @@ Imports: xfun (>= 0.5)
 Suggests: testit, rstudioapi
 License: MIT + file LICENSE
 MD5sum: 8b3e7bc83749e6fd16a7609929cdc853
+
+Package: vctrs
+Version: 0.1.0
+Depends: R (>= 3.1)
+Imports: backports, digest, glue, rlang, zeallot
+Suggests: covr, generics, knitr, pillar, pkgdown, rmarkdown, testthat, tibble
+License: GPL-3
+Archs: vctrs.so.dSYM
+MD5sum: 7a02562871a3b6932ee8d1c84dcda918
 
 Package: xfun
 Version: 0.5
