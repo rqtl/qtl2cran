@@ -6,6 +6,13 @@ License: MIT + file LICENSE
 Archs: askpass.so.dSYM
 MD5sum: c82007b17a587668a69f95a83ed957ee
 
+Package: assertthat
+Version: 0.2.1
+Imports: tools
+Suggests: testthat, covr
+License: GPL-3
+MD5sum: cc8a1c3818b6f62bd09aaaa32c85426c
+
 Package: base64enc
 Version: 0.1-3
 Depends: R (>= 2.9.0)
@@ -258,6 +265,13 @@ Version: 0.2.0
 Suggests: Rcpp
 License: MIT + file LICENSE
 MD5sum: ecb2dcd05d60fb78753871543e02a782
+
+Package: prettyunits
+Version: 1.0.2
+Imports: magrittr, assertthat, methods
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: bdcde1c53e77b1e2884802f693bba044
 
 Package: qtl
 Version: 1.46-2
