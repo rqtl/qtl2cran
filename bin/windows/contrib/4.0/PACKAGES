@@ -103,6 +103,13 @@ Suggests: testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI, RSQLite, R.ut
 License: MIT + file LICENSE
 Archs: i386, x64
 
+Package: GNapi
+Version: 0.2-2
+Depends: R (>= 3.1.0)
+Imports: utils, httr
+Suggests: testthat, devtools, roxygen2, knitr, rmarkdown
+License: MIT + file LICENSE
+
 Package: highr
 Version: 0.8
 Depends: R (>= 3.2.3)
@@ -227,6 +234,52 @@ Imports: parallel, graphics, stats, utils, grDevices
 Suggests: testthat
 License: GPL-3
 Archs: i386, x64
+
+Package: qtl2
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.12), yaml (>= 2.1.13), jsonlite (>= 0.9.17), data.table (>= 1.10.4-3),
+           parallel, stats, utils, graphics, grDevices, RSQLite
+LinkingTo: Rcpp, RcppEigen
+Suggests: testthat, devtools, roxygen2, vdiffr, qtl
+License: GPL-3
+Archs: i386, x64
+
+Package: qtl2bioc
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: GenomicRanges, AnnotationHub
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+
+Package: qtl2browse
+Version: 0.1-1
+Depends: R (>= 3.1.0)
+Imports: utils, jsonlite (>= 0.9.17), qtl2 (>= 0.18)
+License: MIT + file LICENSE
+
+Package: qtl2cl
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: qtl2 (>= 0.8), qtl2convert (>= 0.8), optparse, jsonlite, yaml
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+
+Package: qtl2convert
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.12), qtl (>= 1.40-8), qtl2 (>= 0.18), utils, stats
+LinkingTo: Rcpp
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+Archs: i386, x64
+
+Package: qtl2fst
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: fst
+Suggests: testthat, qtl2 (>= 0.15-1), knitr, rmarkdown
+License: GPL-3
 
 Package: qtlcharts
 Version: 0.11-6

@@ -118,6 +118,14 @@ License: MIT + file LICENSE
 Archs: glue.so.dSYM
 MD5sum: 7eff5487af091a558181d16b595808eb
 
+Package: GNapi
+Version: 0.2-2
+Depends: R (>= 3.1.0)
+Imports: utils, httr
+Suggests: testthat, devtools, roxygen2, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: fb4f79211191489d1922a27fafff33db
+
 Package: highr
 Version: 0.8
 Depends: R (>= 3.2.3)
@@ -259,6 +267,56 @@ Suggests: testthat
 License: GPL-3
 Archs: qtl.so.dSYM
 MD5sum: d7fb286aa6b1660d942f3bec47833692
+
+Package: qtl2
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.12), yaml (>= 2.1.13), jsonlite (>= 0.9.17), data.table (>= 1.10.4-3),
+           parallel, stats, utils, graphics, grDevices, RSQLite
+LinkingTo: Rcpp, RcppEigen
+Suggests: testthat, devtools, roxygen2, vdiffr, qtl
+License: GPL-3
+MD5sum: 0e978f8675f17ff28b76fb71a0452f0f
+
+Package: qtl2bioc
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: GenomicRanges, AnnotationHub
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+MD5sum: 0a9c7764827fb01e667e3787eb253471
+
+Package: qtl2browse
+Version: 0.1-1
+Depends: R (>= 3.1.0)
+Imports: utils, jsonlite (>= 0.9.17), qtl2 (>= 0.18)
+License: MIT + file LICENSE
+MD5sum: a0478d8afd3a9526f5e886f71c6f41ee
+
+Package: qtl2cl
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: qtl2 (>= 0.8), qtl2convert (>= 0.8), optparse, jsonlite, yaml
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+MD5sum: 5014ac7f3d2eb6c5b62b0e9a05142812
+
+Package: qtl2convert
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.12), qtl (>= 1.40-8), qtl2 (>= 0.18), utils, stats
+LinkingTo: Rcpp
+Suggests: testthat, devtools, roxygen2
+License: GPL-3
+MD5sum: f265e7a5d19ce8766401d67fa6296255
+
+Package: qtl2fst
+Version: 0.20
+Depends: R (>= 3.1.0)
+Imports: fst
+Suggests: testthat, qtl2 (>= 0.15-1), knitr, rmarkdown
+License: GPL-3
+MD5sum: 7d6c9a65c452553be3081f09fff79035
 
 Package: qtlcharts
 Version: 0.11-6
