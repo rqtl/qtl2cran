@@ -71,7 +71,7 @@ License: GPL (>= 2)
 Archs: i386, x64
 
 Package: ellipsis
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 3.2)
 Imports: rlang (>= 0.3.0)
 Suggests: covr, testthat
@@ -101,11 +101,11 @@ Suggests: covr, testthat
 License: GPL (>= 2)
 
 Package: glue
-Version: 1.4.0
+Version: 1.4.1
 Depends: R (>= 3.1)
 Imports: methods
 Suggests: testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI, RSQLite, R.utils, forcats,
-           microbenchmark, rprintf, stringr, ggplot2, dplyr, withr, vctrs (>= 0.2.2)
+           microbenchmark, rprintf, stringr, ggplot2, dplyr, withr, vctrs (>= 0.3.0)
 License: MIT + file LICENSE
 Archs: i386, x64
 
@@ -248,7 +248,7 @@ License: GPL-3
 Archs: i386, x64
 
 Package: qtl2
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.12), yaml (>= 2.1.13), jsonlite (>= 0.9.17), data.table (>= 1.10.4-3),
            parallel, stats, utils, graphics, grDevices, RSQLite
@@ -258,7 +258,7 @@ License: GPL-3
 Archs: i386, x64
 
 Package: qtl2bioc
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: GenomicRanges, AnnotationHub
 Suggests: testthat, devtools, roxygen2
@@ -271,14 +271,14 @@ Imports: utils, jsonlite (>= 0.9.17), qtl2 (>= 0.18)
 License: MIT + file LICENSE
 
 Package: qtl2cl
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: qtl2 (>= 0.8), qtl2convert (>= 0.8), optparse, jsonlite, yaml
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
 
 Package: qtl2convert
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.12), qtl (>= 1.40-8), qtl2 (>= 0.18), utils, stats
 LinkingTo: Rcpp
@@ -287,10 +287,10 @@ License: GPL-3
 Archs: i386, x64
 
 Package: qtl2fst
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
-Imports: fst
-Suggests: testthat, qtl2 (>= 0.15-1), knitr, rmarkdown
+Imports: fst, qtl2 (>= 0.15-1)
+Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 
 Package: qtlcharts
@@ -323,7 +323,7 @@ License: GPL (>= 2) | file LICENSE
 Archs: i386, x64
 
 Package: rlang
-Version: 0.4.5
+Version: 0.4.6
 Depends: R (>= 3.2.0)
 Suggests: cli, covr, crayon, glue, magrittr, methods, pillar, rmarkdown, testthat (>= 2.3.0), vctrs
            (>= 0.2.3)
@@ -375,11 +375,11 @@ Suggests: testit, rstudioapi
 License: MIT + file LICENSE
 
 Package: vctrs
-Version: 0.2.4
+Version: 0.3.0
 Depends: R (>= 3.2)
 Imports: ellipsis (>= 0.2.0), digest, glue, rlang (>= 0.4.5)
-Suggests: bit64, covr, crayon, generics, knitr, pillar (>= 1.4.1), pkgdown, rmarkdown, testthat (>=
-           2.3.0), tibble, xml2, zeallot
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown,
+           rmarkdown, testthat (>= 2.3.0), tibble, withr, xml2, zeallot
 License: GPL-3
 Archs: i386, x64
 

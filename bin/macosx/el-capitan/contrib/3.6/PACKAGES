@@ -82,13 +82,13 @@ Archs: digest.so.dSYM
 MD5sum: b73d2bb8e58d1e61988d540e73a33658
 
 Package: ellipsis
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 3.2)
 Imports: rlang (>= 0.3.0)
 Suggests: covr, testthat
 License: GPL-3
 Archs: ellipsis.so.dSYM
-MD5sum: 515215a0e2fb82e6dedc0c5404c7c04d
+MD5sum: 9771e2faf4a5925271bf720266bec0e5
 
 Package: evaluate
 Version: 0.14
@@ -116,14 +116,14 @@ License: GPL (>= 2)
 MD5sum: cce8dbfa315218de701f7966fe4e63ec
 
 Package: glue
-Version: 1.4.0
+Version: 1.4.1
 Depends: R (>= 3.1)
 Imports: methods
 Suggests: testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI, RSQLite, R.utils, forcats,
-           microbenchmark, rprintf, stringr, ggplot2, dplyr, withr, vctrs (>= 0.2.2)
+           microbenchmark, rprintf, stringr, ggplot2, dplyr, withr, vctrs (>= 0.3.0)
 License: MIT + file LICENSE
 Archs: glue.so.dSYM
-MD5sum: ad8f2c71c8250d614e7af0779c7436f4
+MD5sum: 281a5a81776e3c11b92943edd634dc5c
 
 Package: GNapi
 Version: 0.2-2
@@ -283,22 +283,22 @@ Archs: qtl.so.dSYM
 MD5sum: c8bc40caaa65dd8959b497f917e404bc
 
 Package: qtl2
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.12), yaml (>= 2.1.13), jsonlite (>= 0.9.17), data.table (>= 1.10.4-3),
            parallel, stats, utils, graphics, grDevices, RSQLite
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, devtools, roxygen2, vdiffr, qtl
 License: GPL-3
-MD5sum: ccb25315f4ef1edf2e6b21f2ee733dfa
+MD5sum: f57e661a210dff2909c4a8073e5bbaf9
 
 Package: qtl2bioc
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: GenomicRanges, AnnotationHub
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
-MD5sum: a5ee6874c4e3a52c079bd4e98d388277
+MD5sum: 60a6939888427ce70c389f969d3f53a5
 
 Package: qtl2browse
 Version: 0.1-1
@@ -308,29 +308,29 @@ License: MIT + file LICENSE
 MD5sum: c0cbd199ebced548994dea1fa37c149c
 
 Package: qtl2cl
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: qtl2 (>= 0.8), qtl2convert (>= 0.8), optparse, jsonlite, yaml
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
-MD5sum: b2dc39e12e8a8c1f43bd78f4e26951cf
+MD5sum: 2bb7e5357ae17a56694a0cf58ac275af
 
 Package: qtl2convert
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.12), qtl (>= 1.40-8), qtl2 (>= 0.18), utils, stats
 LinkingTo: Rcpp
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
-MD5sum: f30bb91dd369a494dea4adaa715bea08
+MD5sum: a417912e059b756a5a2fae24d5b97446
 
 Package: qtl2fst
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
-Imports: fst
-Suggests: testthat, qtl2 (>= 0.15-1), knitr, rmarkdown
+Imports: fst, qtl2 (>= 0.15-1)
+Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: b8309035ba639dfbd4fbb8566fafe6cd
+MD5sum: 433c8783fe763cad8c0a0dbcc63a6c57
 
 Package: qtlcharts
 Version: 0.11-6
@@ -367,13 +367,13 @@ Archs: RcppEigen.so.dSYM
 MD5sum: 101558ecc4402cbade63fc2ca9c91612
 
 Package: rlang
-Version: 0.4.5
+Version: 0.4.6
 Depends: R (>= 3.2.0)
 Suggests: cli, covr, crayon, glue, magrittr, methods, pillar, rmarkdown, testthat (>= 2.3.0), vctrs
            (>= 0.2.3)
 License: GPL-3
 Archs: rlang.so.dSYM
-MD5sum: d6674a0154b99c70d3675c887bcdcf66
+MD5sum: 9de4002367f106ec217e0a490e1a998c
 
 Package: rmarkdown
 Version: 2.1
@@ -418,29 +418,29 @@ Archs: sys.so.dSYM
 MD5sum: d171b1b9880b47299caf157aa66a8c0d
 
 Package: tinytex
-Version: 0.22
+Version: 0.23
 Imports: xfun (>= 0.5)
-Suggests: testit, rstudioapi
+Suggests: testit, rstudioapi, bookdown
 License: MIT + file LICENSE
-MD5sum: 374c91081c6d08eeb330072c65033281
+MD5sum: 32e00c89f2c101947b26989014d3828f
 
 Package: vctrs
-Version: 0.2.4
+Version: 0.3.0
 Depends: R (>= 3.2)
 Imports: ellipsis (>= 0.2.0), digest, glue, rlang (>= 0.4.5)
-Suggests: bit64, covr, crayon, generics, knitr, pillar (>= 1.4.1), pkgdown, rmarkdown, testthat (>=
-           2.3.0), tibble, xml2, zeallot
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown,
+           rmarkdown, testthat (>= 2.3.0), tibble, withr, xml2, zeallot
 License: GPL-3
 Archs: vctrs.so.dSYM
-MD5sum: 6a94bf0a5a97b8edc74ae00c14272b2d
+MD5sum: 90e5805c826265a40b4b708b668854b5
 
 Package: xfun
-Version: 0.13
+Version: 0.14
 Imports: stats, tools
-Suggests: testit, parallel, rstudioapi, tinytex, mime, markdown, knitr, htmltools, base64enc, remotes,
-           rmarkdown
+Suggests: testit, parallel, codetools, rstudioapi, tinytex, mime, markdown, knitr, htmltools,
+           base64enc, remotes, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 1071afc6d3f90d11947bb4e5717c3c54
+MD5sum: df6380c5a3cbe460422a13fdb9b89515
 
 Package: yaml
 Version: 2.2.1

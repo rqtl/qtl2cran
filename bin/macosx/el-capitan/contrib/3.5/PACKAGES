@@ -283,22 +283,22 @@ Archs: qtl.so.dSYM
 MD5sum: fb7903bf03077431bd45d359fe4b4f33
 
 Package: qtl2
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.12), yaml (>= 2.1.13), jsonlite (>= 0.9.17), data.table (>= 1.10.4-3),
            parallel, stats, utils, graphics, grDevices, RSQLite
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, devtools, roxygen2, vdiffr, qtl
 License: GPL-3
-MD5sum: c944637ebacbd88e52509c662c7df95e
+MD5sum: f56e4314047e8c6e57b5a9a14d9f43ae
 
 Package: qtl2bioc
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: GenomicRanges, AnnotationHub
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
-MD5sum: 8e37cb2316e65ebb048895218ff4ef17
+MD5sum: cce95ed9847947ebea428f7a9f3a0387
 
 Package: qtl2browse
 Version: 0.1-1
@@ -308,29 +308,29 @@ License: MIT + file LICENSE
 MD5sum: fe8b3990d839c57af6d4d7ff1f7275e2
 
 Package: qtl2cl
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: qtl2 (>= 0.8), qtl2convert (>= 0.8), optparse, jsonlite, yaml
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
-MD5sum: 1f6d6f46f6b7baf68f80de96dda001e4
+MD5sum: defecce40a4eae55a9e6bc44ec529351
 
 Package: qtl2convert
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.12), qtl (>= 1.40-8), qtl2 (>= 0.18), utils, stats
 LinkingTo: Rcpp
 Suggests: testthat, devtools, roxygen2
 License: GPL-3
-MD5sum: f11bebf70cfcf04771d89f22678c9255
+MD5sum: c2ad5b0e85b9357ecb2da528e1c9e827
 
 Package: qtl2fst
-Version: 0.20
+Version: 0.22
 Depends: R (>= 3.1.0)
-Imports: fst
-Suggests: testthat, qtl2 (>= 0.15-1), knitr, rmarkdown
+Imports: fst, qtl2 (>= 0.15-1)
+Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: f7ee101fd12956ac4e9b268e81705fd3
+MD5sum: 18fc6e27919238e426788e7a76e8910c
 
 Package: qtlcharts
 Version: 0.11-6
